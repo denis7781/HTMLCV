@@ -1,0 +1,29 @@
+body {
+   background-image: linear-gradient(0deg, rgb(245, 236, 110), #fa7d7d);
+   /* background-attachment: scroll; */
+   background-origin: border-box;
+   background-repeat: no-repeat;
+
+}
+.example {
+   background-color: rgba(255, 255, 255, 1);
+   margin: 5%;
+   padding: 3%;
+   border-radius: 2px;
+   box-shadow: 0px 5px 10px 4px rgb(77, 76, 76);
+   font-family: inherit;
+   text-indent: 15px;
+}
+#fio {
+   font-weight:bold;
+}
+
+.name {
+   font-size: 30px;
+   line-height: 0;
+   font-family: "Cabin", sans-serif;
+}
+
+#prof {
+   font-size: 18px;
+}
