@@ -1,8 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
+
+.flex-container {
+   display: flex; 
+   padding: 10%;
+   border: 1px solid black;
+   flex-wrap: wrap;
+
+}
+
+header, main, footer, nav {
+   border: 1px solid black;
+   width: 100%;
+   max-width: 1200px;
+   padding: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+aside {
+   border: 1px solid black;
+}
+
+article {
+   border: 1px solid black;
+}
+
+.row {
+   display: -ms-flexbox;
+   display: flex; 
+   -ms-flex-wrap: wrap;
+   border: 1px solid black;
+}
+
+.col {
+   position: relative;
+   width: 100%;
+}
+
+.col__article,
+.col__aside {
+   -ms-flex: 0 0 100%;
+   flex: 0 1 100%;
+   max-width: 100%;
+}
+
 body {
+   font-family: 'Asap', sans-serif;
+}
+
+header span, h3 {
+   font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
    background-image: linear-gradient(0deg, rgb(245, 236, 110), #fa7d7d);
-   /* background-attachment: scroll; */
-   background-origin: border-box;
-   background-repeat: no-repeat;
 
 }
 .example {
@@ -26,4 +114,4 @@ body {
 
 #prof {
    font-size: 18px;
-}
+} */
