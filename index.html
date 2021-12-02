@@ -7,44 +7,100 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="script.css">
     <title>Document</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="burger.js"></script>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
     <body>
-        <div class="flex-container">
-            <nav>
-                <div class="container">
-                nav
-                </div>
-            </nav>
+        <div class="flex-container" >
             <header>
                 <div class="container">
-            header
                 <h1><span>Dzianis</span> Sialetski</h1>
                 <h3>Web developer</h3>
                 </div>
             </header>
-            <main>
+                <div class="topnav" id="myTopnav">
+                        <a href="#about" class="active">About me</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#code">My code</a>
+                        <a href="#project">My projects</a>
+                        <a href="#contact">Contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i></a>
+                </div>
+            <main >
                 <div class="container">
                     <div class="row">
                         <aside class="col-lg-5">
-                            aside
+                            <h4 id="contact">Contact</h4>
+                            <address>
+                                <ul>
+                                    <li>Telegram: @denis139</li>
+                                    <li><a href="mailto:denis7787898@gmail.com">e-mail: denis7787898@gmail.com</a></li>
+                                </ul>
+                            </address>
+
+                            <h4>Language</h4>
+                            <ul>
+                                <li>Russian C1</li>
+                                <li>English A2</li>
+                            </ul>
                         </aside>
                         <article class="col-lg-7">
-                        article
+                            <div class="art_element" id="#skills">
+                                <h4 id="about">About me</h4>
+                                <p>I want to complete JavaScript developer courses</p>
+                                <p>Education specialized secondary.</p>
+                            </div>
+                            <div class="art_element">
+                                <h4 id="skills">SKILLS</h4>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>GIT</li>
+                                    <li>Windows, Linux</li>
+                                    <li>Python</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+
+                            <h4 id="code">My code</h4>
+                            <pre><code class="js">alert("Hello, World!");</code></pre>
+                            
+                            <h4 id="project">My projects</h4>
+                            <div class="row">
+                            <div class="myProject">
+                                <div class="mp">
+                                    <p><a href="https://denis7781.github.io/rsschool-cv/cv" target="_blank"><img src="screen.png" width="250" height="200" alt=""></a></p>
+                                    <p>CV</p>
+                                    <h5>Technology:</h5>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                    <p>It is my CV</p>
+                                </div>
+                            </div>
+                            </div>
                         </article>
                     </div>
                 </div>
             </main>
             <footer>
-                <div class="container">
-                    <div class="row">
-                    <div class="col-sm-6 col-lg-4">123</div>
-                    <div class="col-sm-6 col-lg-4">123</div>
-                    <div class="col-sm-6 col-lg-4">123</div>
-                    </div>
-                </div>
+                <div class="footer-">
+                        <div class="footer-1"><a href="https://github.com/denis7781/" target="_blank"><img src="logo.png" height="50px" width="50px" alt=""></a></div>
+                        <div class="footer-1"><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" height="50px" width="150px" alt=""></a></div>
+                        <div class="footer-1"><p>Created in 2021</p></div>
+                </div>    
             </footer>
         </div>
     </body>
